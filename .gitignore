@@ -13,4 +13,4 @@ Thumbs.db
 .vscode/
 .idea/
 
-*.class:Zone.Identifier
+*Zone.Identifier
