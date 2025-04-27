@@ -13,4 +13,13 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Ignorar arquivos compilados Java
+*.class
+
+# Ignorar arquivos compilados Erlang
+*.beam
+
 *Zone.Identifier
+
+# Ignorar ficheiro users.dat
+Server/users.dat
