@@ -1,4 +1,3 @@
-import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.ArrayList;
 
@@ -6,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            //Socket socket = new Socket("172.29.208.1",1);         // UNI EDUARDO
-            Socket socket = new Socket("192.168.56.1", 1); // CASA EDUARDO
+            
+            Socket socket = new Socket("*********", 1); // Acrescentar o IP do servidor e a porta // 
 
             TCP tcp = new TCP(socket);
             ArrayList<Player> planetas = new ArrayList<>(6);
