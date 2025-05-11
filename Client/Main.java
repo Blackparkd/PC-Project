@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            
-            Socket socket = new Socket("*********", 1); // Acrescentar o IP do servidor e a porta // 
+            // IP do servidor
+            Socket socket = new Socket("*************", 1); 
 
             TCP tcp = new TCP(socket);
             ArrayList<Player> planetas = new ArrayList<>(6);
